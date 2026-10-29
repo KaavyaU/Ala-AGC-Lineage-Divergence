@@ -1,4 +1,4 @@
-Species,NCBI TaxID,Total Ala-AGC Copies (score≥50),A54 Copies,U54 Copies,Lineage (A54/U54/Both/N/A)
+Species,NCBI TaxID,Total Ala-AGC Copies (score≥50),A54 Copies,U54 Copies,lineage
 Homo sapiens,9606,22,14,8,Both
 Pan troglodytes,9598,25,17,8,Both
 Gorilla gorilla,9593,20,11,9,Both
@@ -149,3 +149,4 @@ Amanita jacksonii,87329,4,0,4,U54
 Anncaliia algerae,723287,1,0,1,U54
 Leishmania major,5664,2,2,0,A54
 Streptomyces collinus Tu 365,1214242,1,0,1,U54
+Leishmania major,5664,2,2,0,A54
