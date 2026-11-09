@@ -7,17 +7,17 @@ Requirements:
     pip install ete3 pandas requests
 
 Usage:
-    python trna_phylo_tree.py --csv your_data.csv --output tree.svg
-    python trna_phylo_tree.py --csv your_data.csv --output tree.png
+    python phyloTree_script.py --csv your_data.csv --output tree.svg
+    python phyloTree_script.py --csv your_data.csv --output tree.png
 
 CSV columns expected:
-    species | ncbi taxid | total ala-agc count | A54 count | U54 count | lineage
+    Species | NCBI TaxID | Major Clade | Total Ala-AGC (score ≥50) |
+    A54 Copies | U54 Copies | Lineage (A54/U54/Both)
 
 Lineage values:
     "A54"  -> colored red/coral
     "U54"  -> colored blue
-    "Both" -> pie chart showing A54:U54 ratio
-    "N/A"  -> excluded
+    "Both" -> bar chart showing A54:U54 ratio
 """
 
 import argparse
@@ -47,11 +47,6 @@ COLOR_INNER = "#888780"   # inner node dots
 
 # --- NCBI taxonomy helpers ------------------------------------------------------
 
-def normalize_column_name(name: str) -> str:
-    """Collapse punctuation and whitespace so column aliases are easier to match."""
-    return "".join(ch.lower() for ch in str(name) if ch.isalnum())
-
-
 def build_tree_from_taxids(taxids: list[int]) -> Tree:
     """
     Use ETE3's NCBITaxa to build a topology from a list of taxids.
@@ -70,7 +65,7 @@ def build_tree_from_taxids(taxids: list[int]) -> Tree:
         sys.exit(1)
 
 
-# --- Node face: pie chart ------------------------------------------------------
+# --- Node face: bar chart ------------------------------------------------------
 
 def make_leaf_face(row: pd.Series, size: int = 30) -> faces.Face:
     """
@@ -133,9 +128,9 @@ def style_tree(tree: Tree, df: pd.DataFrame) -> TreeStyle:
             node.add_face(face, column=0, position="branch-right")
  
             # Species name label
-            species_name = str(row.get("species", taxid2name.get(taxid, str(taxid))))
+            label = f"{row['species']} ({row['major clade']})"
             name_face = TextFace(
-                f"  {species_name}",
+                f"  {label}",
                 fsize=9,
                 fgcolor=COLOR_LABEL,
                 bold=False,
@@ -228,36 +223,23 @@ def main():
  
     # --- Load & clean CSV ------------------------------------------------------
     print(f"Loading {args.csv}...")
-    df = pd.read_csv(args.csv)
-
-    normalized_columns = {str(col): normalize_column_name(col) for col in df.columns}
-    df = df.rename(columns={col: normalized_columns[col] for col in df.columns})
-
-    col_map = {
-        "ncbi taxid": ["ncbitaxid", "taxid", "ncbitaxid"],
-        "species": ["species", "organism", "speciesname"],
-        "total ala-agc count": [
-            "totalalaagccount",
-            "totalcount",
-            "totalalaagccopies",
-            "totalalaagccopiesscore50",
-            "totalalaagccopiesscore",
-        ],
-        "A54 count": ["a54count", "a54", "a54copies", "a54copiesscore50"],
-        "U54 count": ["u54count", "u54", "u54copies", "u54copiesscore50"],
-        "lineage": ["lineage", "type", "category"],
-    }
-    for canonical, aliases in col_map.items():
-        for alias in aliases:
-            if alias in df.columns and canonical.lower() != alias:
-                df = df.rename(columns={alias: canonical.lower()})
-                break
-
-    # Re-apply the expected capitalization for downstream lookups
-    df = df.rename(columns={
-        "a54 count": "A54 count",
-        "u54 count": "U54 count",
-        "total ala agc count": "total ala-agc count",
+    csv_columns = [
+        "Species",
+        "NCBI TaxID",
+        "Major Clade",
+        "Total Ala-AGC (score ≥50)",
+        "A54 Copies",
+        "U54 Copies",
+        "Lineage (A54/U54/Both)",
+    ]
+    df = pd.read_csv(args.csv, usecols=csv_columns).rename(columns={
+        "Species": "species",
+        "NCBI TaxID": "ncbi taxid",
+        "Major Clade": "major clade",
+        "Total Ala-AGC (score ≥50)": "total ala-agc count",
+        "A54 Copies": "A54 count",
+        "U54 Copies": "U54 count",
+        "Lineage (A54/U54/Both)": "lineage",
     })
 
     # Keep only rows with known lineage labels and valid taxids

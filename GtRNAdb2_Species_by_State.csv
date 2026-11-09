@@ -1,0 +1,144 @@
+Species,NCBI TaxID,Major Clade,Total Ala-AGC (score ≥50),A54 Copies,A54 Freq,U54 Copies,U54 Freq,Lineage (A54/U54/Both),Notes
+Homo sapiens,9606,Mammalia (placental mammal),26,18,0.692,8,0.308,Both,
+Pan troglodytes,9598,Mammalia (placental mammal),24,15,0.625,8,0.333,Both,1 copy of C54 detected
+Gorilla gorilla,9593,Mammalia (placental mammal),21,11,0.524,9,0.429,Both,1 copy of C54 detected
+Pan paniscus,9597,Mammalia (placental mammal),28,19,0.679,8,0.286,Both,1 copy of C54 detected
+Pongo abelii,9601,Mammalia (placental mammal),21,10,0.476,11,0.524,Both,
+Nomascus leucogenys,61853,Mammalia (placental mammal),17,9,0.529,8,0.471,Both,
+Macaca mulatta,9544,Mammalia (placental mammal),34,23,0.676,10,0.294,Both,1 copy of C54 detected
+Papio anubis,9555,Mammalia (placental mammal),20,10,0.5,10,0.5,Both,
+Callithrix jacchus,9483,Mammalia (placental mammal),14,6,0.429,8,0.571,Both,
+Saimiri boliviensis,39432,Mammalia (placental mammal),13,6,0.462,7,0.538,Both,
+Tarsius syrichta,1868482,Mammalia (placental mammal),12,4,0.333,8,0.667,Both,
+Microcebus murinus,30608,Mammalia (placental mammal),12,5,0.417,6,0.5,Both,1 copy of G54 detected
+Otolemur garnettii,30611,Mammalia (placental mammal),13,4,0.308,9,0.692,Both,
+Symphalangus syndactylus,72000,Mammalia (placental mammal),19,10,0.526,9,0.474,Both,
+Chlorocebus sabaeus,60711,Mammalia (placental mammal),17,10,0.588,7,0.412,Both,
+Mus musculus,10090,Mammalia (placental mammal),13,8,0.615,5,0.385,Both,
+Rattus norvegicus,10116,Mammalia (placental mammal),34,6,0.176,5,0.147,Both,23 copies of G54 detected
+Cricetulus griseus,10029,Mammalia (placental mammal),18,11,0.611,7,0.389,Both,
+Cavia porcellus,10141,Mammalia (placental mammal),19,5,0.263,13,0.684,Both,1 copy of G54 detected
+Dipodomys ordii,10020,Mammalia (placental mammal),19,5,0.263,13,0.684,Both,1 copy of G54 detected
+Ictidomys tridecemlineatus,43179,Mammalia (placental mammal),40,5,0.125,32,0.8,Both,2 copies of G54 detected; 1 copy of C54 detected
+Heterocephalus glaber,10181,Mammalia (placental mammal),25,4,0.16,17,0.68,Both,Naked mole-rat; 3 copies of G54 detected; 1 copy of C54 detected
+Oryctolagus cuniculus,9986,Mammalia (placental mammal),19,12,0.632,6,0.316,Both,1 copy of G54 detected
+Ochotona princeps,9978,Mammalia (placental mammal),13,8,0.615,5,0.385,Both,
+Canis lupus familiaris,9615,Mammalia (placental mammal),12,6,0.5,6,0.5,Both,
+Felis catus,9685,Mammalia (placental mammal),18,7,0.389,11,0.611,Both,
+Ailuropoda melanoleuca,9646,Mammalia (placental mammal),17,6,0.353,11,0.647,Both,
+Mustela putorius furo,9669,Mammalia (placental mammal),15,6,0.4,9,0.6,Both,
+Myotis lucifugus,59463,Mammalia (placental mammal),8,6,0.75,2,0.25,Both,
+Erinaceus europaeus,9365,Mammalia (placental mammal),14,4,0.286,10,0.714,Both,
+Sorex araneus,42254,Mammalia (placental mammal),10,4,0.4,6,0.6,Both,
+Bos taurus,9913,Mammalia (placental mammal),31,10,0.323,20,0.645,Both,1 copy of C54 detected
+Ovis aries,9940,Mammalia (placental mammal),32,9,0.281,21,0.656,Both,2 copies of C54 detected
+Sus scrofa,9823,Mammalia (placental mammal),20,7,0.35,11,0.55,Both,2 copies of G54 detected
+Tursiops truncatus,9739,Mammalia (placental mammal),17,7,0.412,10,0.588,Both,
+Balaenoptera acutorostrata,9767,Mammalia (placental mammal),21,7,0.333,14,0.667,Both,
+Equus caballus,9796,Mammalia (placental mammal),24,13,0.542,11,0.458,Both,
+Ceratotherium simum,9807,Mammalia (placental mammal),22,10,0.455,12,0.545,Both,
+Loxodonta africana,9785,Mammalia (placental mammal),40,15,0.375,25,0.625,Both,
+Procavia capensis,9813,Mammalia (placental mammal),20,10,0.5,10,0.5,Both,
+Trichechus manatus,9778,Mammalia (placental mammal),19,10,0.526,9,0.474,Both,
+Echinops telfairi,9371,Mammalia (placental mammal),14,6,0.429,8,0.571,Both,
+Dasypus novemcinctus,9361,Mammalia (placental mammal),21,14,0.667,6,0.286,Both,1 copy of C54 detected
+Choloepus hoffmanni,9358,Mammalia (placental mammal),15,5,0.333,10,0.667,Both,
+Ornithorhynchus anatinus,9258,Mammalia (monotreme),40,39,0.975,0,0,A54,Monotreme (platypus); 1 copy of G54 detected
+Macropus eugenii,9315,Mammalia (marsupial),11,11,1,0,0,A54,Marsupial (tammar wallaby)
+Monodelphis domestica,13616,Mammalia (marsupial),14,14,1,0,0,A54,Marsupial (opossum)
+Sarcophilus harrisii,9305,Mammalia (marsupial),17,17,1,0,0,A54,Marsupial (Tasmanian devil)
+Gallus gallus,9031,Aves (bird),18,18,1,0,0,A54,
+Meleagris gallopavo,9103,Aves (bird),19,18,0.947,0,0,A54,1 copy of G54 detected
+Taeniopygia guttata,59729,Aves (bird),15,15,1,0,0,A54,
+Melopsittacus undulatus,13146,Aves (bird),9,9,1,0,0,A54,
+Geospiza fortis,48883,Aves (bird),15,15,1,0,0,A54,
+Anolis carolinensis,28377,Reptilia (lizard),11,11,1,0,0,A54,
+Chrysemys picta,8469,Reptilia (turtle),8,5,0.625,0,0,A54,3 copies of C54 detected
+Alligator mississippiensis,8496,Reptilia (crocodilian),10,9,0.9,0,0,A54,1 copy of G54 detected
+Xenopus tropicalis,8364,Amphibia (frog),61,61,1,0,0,A54,
+Latimeria chalumnae,7897,Actinistia (coelacanth),5,5,1,0,0,A54,Lobe-finned fish
+Callorhinchus milii,7868,Chondrichthyes (cartilaginous fish),22,22,1,0,0,A54,Shark (holocephali)
+Danio rerio,7955,Actinopterygii (ray-finned fish),6,4,0.667,2,0.333,Both,
+Gadus morhua,8049,Actinopterygii (ray-finned fish),19,19,1,0,0,A54,
+Gasterosteus aculeatus,69293,Actinopterygii (ray-finned fish),25,4,0.16,21,0.84,Both,
+Oryzias latipes,8090,Actinopterygii (ray-finned fish),7,6,0.857,0,0,A54,1 copy of G54 detected
+Oreochromis niloticus,8128,Actinopterygii (ray-finned fish),17,17,1,0,0,A54,
+Takifugu rubripes,31033,Actinopterygii (ray-finned fish),10,10,1,0,0,A54,
+Tetraodon nigroviridis,99883,Actinopterygii (ray-finned fish),10,10,1,0,0,A54,
+Petromyzon marinus,7757,Petromyzontida (lamprey),88,88,1,0,0,A54,Jawless fish (lamprey)
+Nothobranchius furzeri,105023,Actinopterygii (ray-finned fish),9,9,1,0,0,A54,
+Ciona intestinalis,7719,Tunicata (sea squirt),5,5,1,0,0,A54,Closest invertebrate relatives of vertebrates
+Branchiostoma floridae,7739,Cephalochordata (lancelet),15,15,1,0,0,A54,Basal chordate
+Strongylocentrotus purpuratus,7668,Echinodermata (sea urchin),32,30,0.938,2,0.062,Both,
+Aplysia californica,6500,Mollusca (gastropod),13,13,1,0,0,A54,
+Rhopilema esculentum,1529528,Cnidaria (jellyfish),4,4,1,0,0,A54,Cnidarian
+Bolinopsis microptera,213278,Ctenophora (comb jelly),11,11,1,0,0,A54,Basal animal lineage
+Hormiphora californensis,1965144,Ctenophora (comb jelly),12,12,1,0,0,A54,Basal animal lineage
+Cladorhizidae sp. MBARI,90572,Porifera (sponge),4,4,1,0,0,A54,Basal animal
+Ephydatia muelleri,6029,Porifera (sponge),8,8,1,0,0,A54,Freshwater sponge
+Drosophila melanogaster,7227,Insecta (dipteran fly),12,12,1,0,0,A54,
+Drosophila pseudoobscura,7237,Insecta (dipteran fly),12,12,1,0,0,A54,
+Drosophila virilis,7244,Insecta (dipteran fly),9,9,1,0,0,A54,
+Drosophila yakuba,7245,Insecta (dipteran fly),16,16,1,0,0,A54,
+Drosophila willistoni,7260,Insecta (dipteran fly),11,11,1,0,0,A54,
+Drosophila ananassae,7217,Insecta (dipteran fly),10,10,1,0,0,A54,
+Drosophila simulans,7240,Insecta (dipteran fly),12,12,1,0,0,A54,
+Drosophila sechellia,7238,Insecta (dipteran fly),14,14,1,0,0,A54,
+Drosophila persimilis,7234,Insecta (dipteran fly),12,12,1,0,0,A54,
+Drosophila mojavensis,7230,Insecta (dipteran fly),9,9,1,0,0,A54,
+Drosophila grimshawi,7222,Insecta (dipteran fly),8,8,1,0,0,A54,
+Drosophila erecta,7220,Insecta (dipteran fly),12,12,1,0,0,A54,
+Aedes aegypti,7159,Insecta (dipteran fly),51,35,0.686,16,0.314,Both,Mosquito
+Anopheles gambiae,180454,Insecta (dipteran fly),17,17,1,0,0,A54,Mosquito
+Bombyx mori,7091,Insecta (Lepidoptera),28,28,1,0,0,A54,Silkworm; exceptionally high copy number driven by silk fibroin biosynthesis
+Apis mellifera,7460,Insecta (Hymenoptera),7,7,1,0,0,A54,Honeybee
+Blattella germanica,6973,Insecta (Blattodea),27,27,1,0,0,A54,Cockroach
+Spodoptera frugiperda,7108,Insecta (Lepidoptera),25,25,1,0,0,A54,Fall armyworm
+Pararge aegeria,116150,Insecta (Lepidoptera),19,19,1,0,0,A54,Speckled wood butterfly
+Zootermopsis nevadensis,136390,Insecta (Blattodea/Isoptera),6,6,1,0,0,A54,Termite
+Cryptotermes secundus,161720,Insecta (Blattodea/Isoptera),8,7,0.875,0,0,A54,Termite; 1 copy of G54 detected
+Caenorhabditis elegans,6239,Nematoda (roundworm),20,0,0,18,0.9,U54,1 copy of C54 detected; 1 copy of G54 detected
+Caenorhabditis briggsae,6238,Nematoda (roundworm),29,0,0,26,0.897,U54,2 copies of C54 detected; 1 copy of G54 detected
+Caenorhabditis brenneri,135651,Nematoda (roundworm),34,0,0,34,1,U54,
+Caenorhabditis japonica,281687,Nematoda (roundworm),32,2,0.062,30,0.938,Both,
+Caenorhabditis remanei,31234,Nematoda (roundworm),28,0,0,28,1,U54,
+Pristionchus pacificus,54126,Nematoda (roundworm),47,0,0,46,0.979,U54,1 copy of C54 detected
+Arabidopsis thaliana,3702,Plantae / Spermatophyta (eudicot),16,16,1,0,0,A54,
+Glycine max,3847,Plantae / Spermatophyta (eudicot),24,24,1,0,0,A54,
+Medicago truncatula,3880,Plantae / Spermatophyta (eudicot),25,25,1,0,0,A54,
+Vitis vinifera,29760,Plantae / Spermatophyta (eudicot),11,11,1,0,0,A54,
+Populus trichocarpa,3694,Plantae / Spermatophyta (eudicot),20,19,0.95,0,0,A54,1 copy of G54 detected
+Solanum lycopersicum,4081,Plantae / Spermatophyta (eudicot),19,19,1,0,0,A54,
+Manihot esculenta,3983,Plantae / Spermatophyta (eudicot),27,27,1,0,0,A54,
+Gossypium raimondii,29730,Plantae / Spermatophyta (eudicot),24,24,1,0,0,A54,
+Brassica napus,3708,Plantae / Spermatophyta (eudicot),53,53,1,0,0,A54,
+Nicotiana tabacum,4097,Plantae / Spermatophyta (eudicot),37,37,1,0,0,A54,
+Cuscuta campestris,1302166,Plantae / Spermatophyta (eudicot),17,17,1,0,0,A54,
+Dionaea muscipula,44387,Plantae / Spermatophyta (eudicot),14,14,1,0,0,A54,Venus flytrap
+Carthamus tinctorius,4222,Plantae / Spermatophyta (eudicot),21,21,1,0,0,A54,Safflower
+Oryza sativa,4530,Plantae / Spermatophyta (monocot),20,20,1,0,0,A54,
+Zea mays,4577,Plantae / Spermatophyta (monocot),37,37,1,0,0,A54,
+Sorghum bicolor,4558,Plantae / Spermatophyta (monocot),18,18,1,0,0,A54,
+Brachypodium distachyon,15368,Plantae / Spermatophyta (monocot),19,19,1,0,0,A54,
+Triticum aestivum,4565,Plantae / Spermatophyta (monocot),10,10,1,0,0,A54,
+Adiantum capillus-veneris,13818,Plantae / Monilophyta (fern),8,7,0.875,1,0.125,Both,Maidenhair fern
+Physcomitrella patens,3218,Plantae / Bryophyta (moss),18,18,1,0,0,A54,
+Ceratodon purpureus,56296,Plantae / Bryophyta (moss),29,28,0.966,0,0,A54,1 copy of G54 detected
+Chara braunii,56281,Plantae / Charophyta (stonewort),15,15,1,0,0,A54,Closest green algae to land plants
+Ostreococcus lucimarinus,436017,Plantae / Chlorophyta (green algae),1,1,1,0,0,A54,Picoeukaryote
+Saccharomyces cerevisiae,4932,Fungi / Ascomycota (yeast),11,0,0,11,1,U54,
+Schizosaccharomyces pombe,4896,Fungi / Ascomycota (fission yeast),9,9,1,0,0,A54,
+Neurospora crassa,5141,Fungi / Ascomycota (filamentous),19,17,0.895,0,0,A54,2 copies of G54 detected
+Aspergillus niger,5061,Fungi / Ascomycota (filamentous),11,0,0,11,1,U54,
+Aspergillus fumigatus,746128,Fungi / Ascomycota (filamentous),8,0,0,8,1,U54,
+Candida albicans,5476,Fungi / Ascomycota (yeast),6,0,0,6,1,U54,
+Ustilago maydis,237631,Fungi / Basidiomycota (smut),5,5,1,0,0,A54,
+Cryptococcus neoformans,5207,Fungi / Basidiomycota (yeast),8,3,0.375,2,0.25,Both,G54 and C54 copies are near score threshold (53–54 bits); treat with caution
+Rhizopus delemar,246409,Fungi / Mucoromycota (zygomycete),10,10,1,0,0,A54,
+Allomyces macrogynus,28583,Fungi / Blastocladiomycota (chytrid-like),9,9,1,0,0,A54,
+Batrachochytrium dendrobatidis,109871,Fungi / Chytridiomycota (chytrid),3,3,1,0,0,A54,Amphibian pathogen
+Rozella allomycis,281847,Fungi / Cryptomycota (basal fungus),4,4,1,0,0,A54,Microsporidium-like; basal fungal lineage
+Leishmania major,5664,Trypanosomatida (kinetoplastid),2,2,1,0,0,A54,
+Trypanosoma brucei brucei TREU927,185431,Trypanosomatida (kinetoplastid),2,2,1,0,0,A54,
+Plasmodium falciparum,5833,Apicomplexa (apicomplexan),1,1,1,0,0,A54,Malaria parasite
+Naegleria gruberi,5762,Excavata / Heterolobosea,26,26,1,0,0,A54,Free-living amoeba
